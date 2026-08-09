@@ -1,0 +1,353 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+
+.hero {
+    text-align: center;
+    padding: 40px;
+}
+
+
+.hero h1 {
+    font-size: 40px;
+}
+
+
+.productos {
+    padding: 20px;
+}
+
+
+.productos h2 {
+    text-align: center;
+}
+
+
+.contenedor-productos {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+
+}
+
+
+.producto-card {
+
+    background-color: white;
+    width: 250px;
+    padding: 20px;
+
+    border-radius: 15px;
+
+    text-align: center;
+
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+
+}
+
+
+.producto-card img {
+
+    width: 100%;
+    height: 220px;
+
+    object-fit: cover;
+
+    border-radius: 10px;
+
+}
+
+
+.producto-card h3 {
+
+    margin-top: 15px;
+
+}
+
+
+.precio {
+
+    font-size: 22px;
+    font-weight: bold;
+
+}
+
+
+.stock {
+
+    display: inline-block;
+
+    padding: 8px 15px;
+
+    border-radius: 20px;
+
+    margin-top: 10px;
+
+}
+
+
+.disponible {
+
+    background-color: #d4edda;
+
+    color: green;
+
+}
+
+
+.agotado {
+
+    background-color: #f8d7da;
+
+    color: red;
+
+}
+
+
+/* NAVBAR */
+
+.navbar {
+
+    background-color: #222;
+
+    padding: 20px 40px;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+}
+
+
+.logo a {
+
+    color: white;
+
+    font-size: 28px;
+
+    font-weight: bold;
+
+    text-decoration: none;
+
+}
+
+
+.menu {
+
+    list-style: none;
+
+    display: flex;
+
+    gap: 25px;
+
+    margin: 0;
+
+}
+
+
+.menu a {
+
+    color: white;
+
+    text-decoration: none;
+
+    font-size: 18px;
+
+}
+
+
+.menu a:hover {
+
+    color: #ddd;
+
+}
+
+
+/* CONTACTO */
+
+
+.contacto {
+
+    max-width: 600px;
+
+    margin: 40px auto;
+
+    text-align: center;
+
+}
+
+
+.formulario {
+
+    background-color: white;
+
+    padding: 30px;
+
+    border-radius: 15px;
+
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 15px;
+
+}
+
+
+.formulario label {
+
+    text-align: left;
+
+    font-weight: bold;
+
+}
+
+
+.formulario input,
+.formulario textarea {
+
+
+    padding: 12px;
+
+    border-radius: 8px;
+
+    border: 1px solid #ccc;
+
+    font-size: 16px;
+
+}
+
+
+.formulario textarea {
+
+    height: 120px;
+
+    resize: none;
+
+}
+
+
+
+.formulario button {
+
+
+    padding: 12px;
+
+    border: none;
+
+    border-radius: 8px;
+
+    background-color: #222;
+
+    color: white;
+
+    font-size: 17px;
+
+    cursor: pointer;
+
+}
+
+
+
+.formulario button:hover {
+
+    background-color: #444;
+
+}
+
+
+/* ABOUT */
+
+
+.about {
+
+    max-width: 800px;
+
+    margin: 40px auto;
+
+    text-align: center;
+
+}
+
+
+.imagen-tienda {
+
+    width: 100%;
+
+    max-width: 600px;
+
+    height: 350px;
+
+    object-fit: cover;
+
+    border-radius: 15px;
+
+    margin: 25px 0;
+
+}
+
+
+.about p {
+
+    font-size: 18px;
+
+    line-height: 1.6;
+
+}
+
+
+/* SUCCESS */
+
+
+.success {
+
+    max-width: 600px;
+
+    margin: 80px auto;
+
+    text-align: center;
+
+    background-color: white;
+
+    padding: 40px;
+
+    border-radius: 15px;
+
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+
+}
+
+
+.boton-volver {
+
+    display: inline-block;
+
+    margin-top: 20px;
+
+    padding: 12px 25px;
+
+    background-color: #222;
+
+    color: white;
+
+    text-decoration: none;
+
+    border-radius: 8px;
+
+}
+
+
+.boton-volver:hover {
+
+    background-color: #444;
+
+}

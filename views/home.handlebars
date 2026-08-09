@@ -1,0 +1,49 @@
+<section class="hero">
+    <h1>{{nombreTienda}}</h1>
+
+    <p>{{mensajeBienvenida}}</p>
+</section>
+
+
+<section class="productos">
+
+    <h2>Productos disponibles</h2>
+
+
+    <div class="contenedor-productos">
+
+        {{#each productos}}
+
+        <div class="producto-card">
+
+            <img src="{{imagen}}" alt="{{nombre}}">
+
+
+            <h3>{{nombre}}</h3>
+
+            <p class="precio">
+                ${{precio}}
+            </p>
+
+
+            {{#if disponible}}
+
+            <span class="stock disponible">
+                En stock
+            </span>
+
+            {{else}}
+
+            <span class="stock agotado">
+                Agotado
+            </span>
+
+            {{/if}}
+
+        </div>
+
+        {{/each}}
+
+    </div>
+
+</section>
