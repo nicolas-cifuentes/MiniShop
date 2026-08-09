@@ -1,13 +1,18 @@
 {
   "name": "minishop",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Tienda online desarrollada con Node.js, Express y Express Handlebars.",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "nodejs",
+    "express",
+    "handlebars",
+    "javascript"
+  ],
+  "author": "Nicolás Cifuentes",
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
